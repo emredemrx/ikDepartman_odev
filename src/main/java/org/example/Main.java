@@ -6,8 +6,8 @@ public class Main {
         person.name = "Emre";
         person.email = "emre@emre.com";
         person.wage = 50000;
-        person.workingDay = 26;
-        person.maasHesapla();
+        int workingDay = 32;
+        person.maasHesapla(workingDay);
 
     }
 }
