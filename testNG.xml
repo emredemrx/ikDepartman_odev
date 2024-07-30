@@ -1,0 +1,12 @@
+<suite name="Test Suite" verbose="1" parallel="true" thread-count="11">
+    <test name="Test 1">
+        <classes>
+            <class name="testFile.CustomerTest"/>
+        </classes>
+    </test>
+    <test name="Test 2">
+        <classes>
+            <class name="testFile.CustomerDataProvider"/>
+        </classes>
+    </test>
+</suite>
